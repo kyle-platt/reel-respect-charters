@@ -6,5 +6,6 @@ export const color = {
   gray50: "#6B767C",
   gray30: "#272F35",
   black: "#000000",
-  blue: "#2185f5",
+  blue50: "#21539E",
+  blue60: "#2185f5",
 }
