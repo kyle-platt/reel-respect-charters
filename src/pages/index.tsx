@@ -3,11 +3,22 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+import styled from "styled-components"
+import "../styles/reset.css"
+import "../styles/fonts.css"
+import { Heading56 } from "../styles/_typography"
+
+const Heading = styled.h1`
+  ${Heading56}
+`
+
+const Button = styled.button`
+  color: red;
+`
 
 const IndexPage = () => (
   <Layout>
-    <div className={styles.textCenter}>
+    <>
       <StaticImage
         src="../images/example.png"
         loading="eager"
@@ -17,8 +28,9 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <h1>Reel Respect Charters</h1>
-    </div>
+      <Heading>Reel Respect Charters</Heading>
+      <Button>Hello</Button>
+    </>
   </Layout>
 )
 

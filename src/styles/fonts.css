@@ -1,0 +1,13 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* @font-face {
+  font-family: "Name";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/name.woff2") format("woff2"),
+    url("/fonts/name.woff") format("woff");
+} */
+  
