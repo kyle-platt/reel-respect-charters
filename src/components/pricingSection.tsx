@@ -49,7 +49,7 @@ const Container = styled.div`
   text-align: center;
   margin: 16px;
 
-  min-height: 176px;
+  min-height: 216px;
   width: 100%;
   max-width: 350px;
   padding: 24px 32px;

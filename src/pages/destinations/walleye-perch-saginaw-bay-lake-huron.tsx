@@ -70,16 +70,32 @@ const Walleye = () => (
             tripLength: "1/2 Day",
             tripLengthDetails: "Morning or Afternoon (up to 5 hours)",
             prices: [
-              { amount: "$550", details1: "Inshore or less than 20 miles" },
-              { amount: "$650", details1: "Offshore or more than 20 miles" },
+              {
+                amount: "$550",
+                details1: "1 – 4 People",
+                details2: "Inshore or less than 20 miles",
+              },
+              {
+                amount: "$650",
+                details1: "1 – 4 People",
+                details2: "Offshore or more than 20 miles",
+              },
             ],
           },
           {
             tripLength: "Full Day",
             tripLengthDetails: "up to 8 hours",
             prices: [
-              { amount: "$800", details1: "Inshore or less than 20 miles" },
-              { amount: "$900", details1: "Offshore or more than 20 miles" },
+              {
+                amount: "$800",
+                details1: "1 – 4 People",
+                details2: "Inshore or less than 20 miles",
+              },
+              {
+                amount: "$900",
+                details1: "1 – 4 People",
+                details2: "Offshore or more than 20 miles",
+              },
             ],
           },
         ]}
