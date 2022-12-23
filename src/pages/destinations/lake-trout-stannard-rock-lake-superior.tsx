@@ -50,7 +50,7 @@ const Trout = () => (
         <Description>Stannard Rock, Lake Superior</Description>
         <BannerImageWrapper>
           <StaticImage
-            alt="gloucester"
+            alt="Stannard Rock"
             loading="eager"
             quality={95}
             formats={["auto", "webp", "avif"]}
