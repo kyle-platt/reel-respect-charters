@@ -5,6 +5,7 @@ import styled from "styled-components"
 import { color } from "../styles/_colors"
 import { Body14, Body16, Heading16 } from "../styles/_typography"
 import { layout } from "../styles/_breakpoints"
+import Button from "./button"
 
 const StyledHeader = styled.header`
   display: flex;
@@ -16,20 +17,6 @@ const StyledHeader = styled.header`
 const Dropdown = styled.div`
   position: relative;
   display: inline-block;
-`
-
-const DropdownBtn = styled.button`
-  ${Heading16}
-  background-color: ${color.blue50};
-  color: ${color.white};
-  padding: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 15px;
-
-  :hover {
-    background-color: ${color.blue60};
-  }
 `
 
 const DropdownContent = styled.div`
@@ -95,11 +82,10 @@ const Header = () => {
           src="../images/reel-respect-logo.png"
         />
       </Link>
-      {/* <Link to="/page-2">Destinations</Link> */}
       <Dropdown ref={ref}>
-        <DropdownBtn onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
+        <Button onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
           Destinations
-        </DropdownBtn>
+        </Button>
         {isDropdownOpen && (
           <DropdownContent>
             <DropdownLink to="/page-2">
