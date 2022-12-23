@@ -50,6 +50,7 @@ const DestinationSection = () => {
       <DestinationCard
         title="Walleye & Perch"
         subtitle="Saginaw Bay, Lake Huron"
+        link="/destinations/walleye-perch-saginaw-bay-lake-huron"
         description="Reel Respect’s home port is Linwood Beach Marina. A popular sport fishing destination. Saginaw Bay is one of the best walleye fisheries in the world right now. Spring and summer are best for walleye trips and perch in the fall."
       >
         <StaticImage
@@ -63,6 +64,7 @@ const DestinationSection = () => {
       <DestinationCard
         title="Lake Trout"
         subtitle="Stannard Rock, Lake Superior"
+        link="/destinations/lake-trout-stannard-rock-lake-superior"
         description="A unique and memorable jig fishing adventure 40 miles off the coast in the icy waters of Lake Superior. Stannard Rock Lighthouse, which has the nickname “Loneliest Place in the World”."
       >
         <StaticImage
@@ -76,6 +78,7 @@ const DestinationSection = () => {
       <DestinationCard
         title="Salmon"
         subtitle="Manistee, Lake Michigan"
+        link="/destinations/salmon-manistee-lake-michigan"
         description="Salmon fight like no other fish in Michigan. Reel Respect is ready for the battle. Salmon are great to eat and an adventure to catch! Join us in the late summer to fall for an exciting trip on Lake Michigan."
       >
         <StaticImage
@@ -89,6 +92,7 @@ const DestinationSection = () => {
       <DestinationCard
         title="Bluefin Tuna"
         subtitle="Gloucester, MA"
+        link="/destinations/bluefin-tuna-gloucester-ma"
         description="Travel to Massachusetts for the fishing adventure of a lifetime. No fish battles like a bluefin tuna. These fish are capable of weighing over 1000 pounds and being over 120 inches long. This is a week long trip so that we can increase your chances on this mighty catch."
       >
         <StaticImage

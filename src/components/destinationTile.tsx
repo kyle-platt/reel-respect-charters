@@ -128,12 +128,14 @@ interface Props {
   description: string
   className?: string
   children?: JSX.Element
+  link: string
 }
 
 const DestinationTile = ({
   title,
   subtitle,
   description,
+  link,
   children,
   className,
 }: Props) => {
@@ -145,7 +147,7 @@ const DestinationTile = ({
           <Title>{title}</Title>
           <SubTitle>{subtitle}</SubTitle>
           <Description>{description}</Description>
-          <StyledLink to="/">View More</StyledLink>
+          <StyledLink to={link}>View More</StyledLink>
         </TextWrapper>
       </TopSection>
     </Container>

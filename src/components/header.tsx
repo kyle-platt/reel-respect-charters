@@ -88,23 +88,23 @@ const Header = () => {
         </Button>
         {isDropdownOpen && (
           <DropdownContent>
-            <DropdownLink to="/page-2">
+            <DropdownLink to="/destinations/walleye-perch-saginaw-bay-lake-huron">
               Walleye & Perch
               <SecondaryText>Saginaw Bay, Lake Huron</SecondaryText>
             </DropdownLink>
-            <DropdownLink to="/page-2">
+            <DropdownLink to="/destinations/lake-trout-stannard-rock-lake-superior">
               Lake Trout
               <SecondaryText>Stannard Rock, Lake Superior</SecondaryText>
             </DropdownLink>
-            <DropdownLink to="/page-2">
+            <DropdownLink to="/destinations/salmon-manistee-lake-michigan">
               Salmon
               <SecondaryText>Manistee, Lake Michigan</SecondaryText>
             </DropdownLink>
-            <DropdownLink to="/page-2">
+            <DropdownLink to="/destinations/bluefin-tuna-gloucester-ma">
               Bluefin Tuna
               <SecondaryText>Gloucester, MA</SecondaryText>
             </DropdownLink>
-            <DropdownLink to="/page-2">
+            <DropdownLink to="/destinations/create-your-own-fishing-adventure">
               Create Your Own Fishing Adventure
             </DropdownLink>
           </DropdownContent>

@@ -49,10 +49,12 @@ const Footer = () => (
       </Link>
     </LogoWrapper>
     <LinkWrapper>
-      <StyledLink to="/">FAQ</StyledLink>
+      <StyledLink to="/faq">FAQ</StyledLink>
     </LinkWrapper>
     <LinkWrapper>
-      <StyledLink to="/">Contact Us</StyledLink>
+      <StyledLink to="https://www.facebook.com/reelrespectcharters/">
+        Contact Us
+      </StyledLink>
     </LinkWrapper>
     <LinkWrapper>
       <Link to="https://www.facebook.com/reelrespectcharters/">
