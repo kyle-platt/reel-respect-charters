@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import * as React from "react"
 
 import styled from "styled-components"
@@ -104,10 +105,21 @@ const Description = styled.div`
   }
 `
 
-const StyledButton = styled(Button)`
+const StyledLink = styled(Link)`
   ${Heading12}
   padding: 12px 48px;
   margin-top: 16px;
+  background-color: ${color.blue50};
+  color: ${color.white};
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  text-decoration: none;
+  display: inline-block;
+
+  :hover {
+    background-color: ${color.blue60};
+  }
 `
 
 interface Props {
@@ -133,7 +145,7 @@ const DestinationTile = ({
           <Title>{title}</Title>
           <SubTitle>{subtitle}</SubTitle>
           <Description>{description}</Description>
-          <StyledButton>View More</StyledButton>
+          <StyledLink to="/">View More</StyledLink>
         </TextWrapper>
       </TopSection>
     </Container>
