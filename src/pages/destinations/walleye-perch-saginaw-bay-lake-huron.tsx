@@ -53,6 +53,7 @@ const Walleye = () => (
             alt="Lake Huron Sunset"
             loading="eager"
             quality={95}
+            width={1000}
             formats={["auto", "webp", "avif"]}
             src="../../images/huron.jpeg"
           />
@@ -120,6 +121,6 @@ const Walleye = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Walleye" />
+export const Head = () => <Seo title="Walleye & Perch" />
 
 export default Walleye

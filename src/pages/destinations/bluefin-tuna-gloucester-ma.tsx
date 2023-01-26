@@ -53,6 +53,7 @@ const BluefinTuna = () => (
             alt="gloucester"
             loading="eager"
             quality={95}
+            width={1000}
             formats={["auto", "webp", "avif"]}
             src="../../images/gloucester.jpeg"
           />

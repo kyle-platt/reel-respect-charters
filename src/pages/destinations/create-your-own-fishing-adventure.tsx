@@ -42,6 +42,7 @@ const CreateYourOwn = () => (
             alt="Fishing Pole"
             loading="eager"
             quality={95}
+            width={1000}
             formats={["auto", "webp", "avif"]}
             src="../../images/fishing-pole.jpg"
           />

@@ -53,6 +53,7 @@ const Salmon = () => (
             alt="Salmon Fishing"
             loading="eager"
             quality={95}
+            width={1000}
             formats={["auto", "webp", "avif"]}
             src="../../images/manistee-salmon-family.jpeg"
           />

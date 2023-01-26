@@ -53,6 +53,7 @@ const Trout = () => (
             alt="Stannard Rock"
             loading="eager"
             quality={95}
+            width={1000}
             formats={["auto", "webp", "avif"]}
             src="../../images/stannard-rock.jpeg"
           />

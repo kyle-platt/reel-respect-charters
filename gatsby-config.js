@@ -10,8 +10,8 @@
 module.exports = {
   siteMetadata: {
     title: `Reel Respect Charters`,
-    description: `ADD META DESCRIPTION`,
-    siteUrl: `https://reelrespectcharters.gatsbyjs.io/`,
+    description: `At Reel Respect Charters, our goal is to provide our clients with a safe and successful adventure. We have multiple trips that are family friendly and enjoyable for all. Whether it be the Saginaw Bay, Lake Michigan, or the Atlantic Ocean we're sure you'll be pleased.`,
+    siteUrl: `https://reelrespectcharters.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
