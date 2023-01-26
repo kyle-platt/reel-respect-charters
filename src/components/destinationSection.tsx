@@ -77,7 +77,7 @@ const DestinationSection = () => {
       </DestinationCard>
       <DestinationCard
         title="Salmon"
-        subtitle="Manistee, Lake Michigan"
+        subtitle="Manistee or Ludington, Lake Michigan"
         link="/destinations/salmon-manistee-lake-michigan"
         description="Salmon fight like no other fish in Michigan. Reel Respect is ready for the battle. Salmon are great to eat and an adventure to catch! Join us in the late summer to fall for an exciting trip on Lake Michigan."
       >

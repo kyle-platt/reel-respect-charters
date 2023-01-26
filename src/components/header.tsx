@@ -98,7 +98,9 @@ const Header = () => {
             </DropdownLink>
             <DropdownLink to="/destinations/salmon-manistee-lake-michigan">
               Salmon
-              <SecondaryText>Manistee, Lake Michigan</SecondaryText>
+              <SecondaryText>
+                Manistee or Ludington, Lake Michigan
+              </SecondaryText>
             </DropdownLink>
             <DropdownLink to="/destinations/bluefin-tuna-gloucester-ma">
               Bluefin Tuna
