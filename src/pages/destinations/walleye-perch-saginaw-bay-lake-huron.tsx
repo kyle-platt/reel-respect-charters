@@ -72,7 +72,7 @@ const Walleye = () => (
             tripLengthDetails: "Morning or Afternoon (up to 5 hours)",
             prices: [
               {
-                amount: "$550",
+                amount: "$6000",
                 details1: "1 – 4 People",
                 details2: "Inshore or less than 20 miles",
               },
@@ -101,7 +101,7 @@ const Walleye = () => (
           },
         ]}
         additionalDetails={[
-          "Add $100 per additional guest over 4 people.",
+          "Add $75 per additional guest over 4 people.",
           "If you are a repeat customer within the year you get $50 off the subsequent charter.",
           "Fuel surcharge of $50 if fuel prices are over $6.00 per gallon",
         ]}
