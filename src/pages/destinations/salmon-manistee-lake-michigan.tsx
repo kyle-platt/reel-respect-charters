@@ -47,7 +47,7 @@ const Salmon = () => (
     <>
       <TopContent>
         <MainHeading>Salmon</MainHeading>
-        <Description>Manistee, Lake Michigan</Description>
+        <Description>Manistee or Ludington, Lake Michigan</Description>
         <BannerImageWrapper>
           <StaticImage
             alt="Salmon Fishing"

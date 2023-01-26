@@ -77,7 +77,7 @@ const Walleye = () => (
                 details2: "Inshore or less than 20 miles",
               },
               {
-                amount: "$650",
+                amount: "$700",
                 details1: "1 – 4 People",
                 details2: "Offshore or more than 20 miles",
               },
