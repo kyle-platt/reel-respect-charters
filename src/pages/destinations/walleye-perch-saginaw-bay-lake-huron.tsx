@@ -72,7 +72,7 @@ const Walleye = () => (
             tripLengthDetails: "Morning or Afternoon (up to 5 hours)",
             prices: [
               {
-                amount: "$6000",
+                amount: "$600",
                 details1: "1 – 4 People",
                 details2: "Inshore or less than 20 miles",
               },
