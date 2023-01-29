@@ -96,12 +96,12 @@ const BluefinTuna = () => (
             tripLength: "6 Day Standard",
             prices: [
               {
-                amount: "$8,400",
+                amount: "$8,500",
                 details1: "1 – 2 People",
                 details2: "Without accommodations",
               },
               {
-                amount: "$9,200",
+                amount: "$9,500",
                 details1: "1 – 2 People",
                 details2: "With accommodations",
               },
